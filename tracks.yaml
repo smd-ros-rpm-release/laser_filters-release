@@ -13,7 +13,7 @@ tracks:
     name: upstream
     patches: null
     release_inc: '0'
-    release_repo_url: https://github.com/ros-gbp/laser_filters-release.git
+    release_repo_url: git@github.com:ros-gbp/laser_filters-release.git
     release_tag: :{version}
     ros_distro: hydro
     vcs_type: git
