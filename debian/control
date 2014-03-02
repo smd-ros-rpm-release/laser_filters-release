@@ -1,0 +1,12 @@
+Source: ros-indigo-laser-filters
+Section: misc
+Priority: extra
+Maintainer: Jon Binney <jbinney@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-indigo-angles, ros-indigo-catkin, ros-indigo-filters, ros-indigo-laser-geometry, ros-indigo-message-filters, ros-indigo-pluginlib, ros-indigo-roscpp, ros-indigo-rostest, ros-indigo-sensor-msgs, ros-indigo-tf
+Homepage: http://ros.org/wiki/laser_filters
+Standards-Version: 3.9.2
+
+Package: ros-indigo-laser-filters
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-angles, ros-indigo-filters, ros-indigo-laser-geometry, ros-indigo-message-filters, ros-indigo-pluginlib, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-tf
+Description: Assorted filters designed to operate on 2D planar laser scanners, which use the sensor_msgs/LaserScan type.
