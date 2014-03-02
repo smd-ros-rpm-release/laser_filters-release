@@ -4,7 +4,7 @@
     Assorted filters designed to operate on 2D planar laser scanners,
     which use the sensor_msgs/LaserScan type.
   </description>
-  <version>1.6.12</version>
+  <version>1.6.13</version>
   <maintainer email="jbinney@willowgarage.com">Jon Binney</maintainer>
   <author>Tully Foote</author>
   <license>BSD</license>
@@ -20,7 +20,6 @@
   <build_depend>message_filters</build_depend>
   <build_depend>laser_geometry</build_depend>
   <build_depend>pluginlib</build_depend>
-  <build_depend>pcl_ros</build_depend>
   <build_depend>rostest</build_depend>
   <build_depend>angles</build_depend>
 
@@ -31,7 +30,6 @@
   <run_depend>message_filters</run_depend>
   <run_depend>laser_geometry</run_depend>
   <run_depend>pluginlib</run_depend>
-  <run_depend>pcl_ros</run_depend>
   <run_depend>angles</run_depend>
 
   <export>
