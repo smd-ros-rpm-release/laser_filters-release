@@ -2,6 +2,11 @@
 Changelog for package laser_filters
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.6.14 (2014-03-04)
+-------------------
+* fix compilation on some platforms
+* Contributors: Vincent Rabaud
+
 1.6.13 (2014-03-02)
 -------------------
 * separate tests
