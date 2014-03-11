@@ -1,3 +1,22 @@
+## laser_filters (indigo) - 1.6.14-1
+
+User `jbinney@jmb` released the packages in the `laser_filters` repository into the `indigo` distro by running `/usr/bin/bloom-release laser_filters --track indigo --rosdistro indigo --new-track` on `Tue, 11 Mar 2014 00:05:49 -0000`
+
+The `laser_filters` package was released.
+
+Version of package(s) in repository `laser_filters`:
+- rosdistro version: `1.6.14-0`
+- old version: `1.6.14-0`
+- new version: `1.6.14-1`
+
+Versions of tools used:
+- bloom version: `0.5.2`
+- catkin_pkg version: `0.1.26`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.4`
+- vcstools version: `0.1.33`
+
+
 ## laser_filters - 1.6.11-0
 
 User `william@dosa` released the packages in the `laser_filters` repository by running `/usr/local/bin/bloom-release -r hydro -t hydro laser_filters` on `Fri, 19 Jul 2013 23:33:55 -0000`
