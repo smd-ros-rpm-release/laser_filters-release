@@ -15,7 +15,7 @@
     <class name="laser_filters/LaserScanRangeFilter" type="laser_filters::LaserScanRangeFilter" 
 	    base_class_type="filters::FilterBase<sensor_msgs::LaserScan>">
       <description>
-	This is a filter which filters sensor_msgs::LaserScan messages based on intensity
+	This is a filter which filters sensor_msgs::LaserScan messages based on range
       </description>
     </class>
     <class name="laser_filters/ScanShadowsFilter" type="laser_filters::ScanShadowsFilter" 
@@ -34,6 +34,12 @@
 	    base_class_type="filters::FilterBase<sensor_msgs::LaserScan>">
       <description>
 	 This is a filter that removes points in a laser scan outside of certain angular bounds.
+      </description>
+    </class>
+    <class name="laser_filters/LaserScanAngularBoundsFilterInPlace" type="laser_filters::LaserScanAngularBoundsFilterInPlace" 
+	    base_class_type="filters::FilterBase<sensor_msgs::LaserScan>">
+      <description>
+	 This is a filter that removes points in a laser scan inside of certain angular bounds.
       </description>
     </class>
     <class name="laser_filters/LaserMedianFilter" type="laser_filters::LaserMedianFilter" 
